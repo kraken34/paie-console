@@ -9,5 +9,7 @@ public interface CotisationService {
 	
 	List<Cotisation> lister();
 	
-	Cotisation sauver(String codeSaisie, String libelle, Boolean imposable, BigDecimal tauxPratonal, BigDecimal tauxSalarial);
+	Cotisation sauver(String codeSaisie, String libelle, Boolean imposable, BigDecimal tauxPatronal, BigDecimal tauxSalarial);
+
+	void supprimer(int id);
 }
