@@ -1,7 +1,10 @@
 package dev.paie.ihm;
 
+import org.springframework.stereotype.Controller;
+
 import dev.paie.service.CotisationService;
 
+@Controller
 public class ListerCotisationsOptionMenu extends OptionMenu {
 
 	private CotisationService cotisService;
